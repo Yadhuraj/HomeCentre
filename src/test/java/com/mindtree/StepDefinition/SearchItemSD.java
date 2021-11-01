@@ -38,6 +38,7 @@ public class SearchItemSD extends BaseClass{
     @And("^check if navigated to required page$")
     public void check_if_navigated_to_required_page() throws Throwable {
     	SearchItem.search_check(driver);
+    	driver.close();
     }
 
 
